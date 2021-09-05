@@ -61,13 +61,30 @@ nav a {
 nav a:hover {
   background: #999;
 }
-.container{
+.container {
   margin: 0 10%;
 }
-.container section{
+.container section {
   padding: 20px;
-  
 }
 .container section.level {
   display: none;
+}
+.gallery {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.frame {
+  width: 100%;
+}
+@media screen and (min-width: 1300px) {
+  .frame {
+    width: 50%;
+  }
+}
+.frame img {
+  width: 100%;
+  display: inline-block;
 }
