@@ -44,6 +44,7 @@ nav ul li ul {
   display: none;
   width: 100%;
   background: #888;
+  z-index: 100;
 }
 nav ul li:hover > ul,
 nav ul li:focus-within > ul,
