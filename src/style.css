@@ -7,64 +7,29 @@ body{
 body {
   font-family: arial;
 }
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.logo-img {
+  height: 80px;
+  width: auto;
+  text-align: center;
+  padding: 10px;
+}
 h1 {
   text-align: center;
   text-transform: capitalize;
 }
-nav {
-  display: block;
-  width: 100%;
-  text-align: center;
+@media screen and (max-width: 575px) {
+  nav.navbar {
+    justify-content: flex-end;
+  }
+  nav a.nav-link {
+    text-align: center;
+  }
 }
-nav ul{
-  list-style: none;
-  padding: 0;
-}
-nav li{
-  display: inline-block;
-  position: relative;
-  text-decoration: none;
-  transition-duration: 0.5s;
-  margin: 0;
-  background: #888;
-  color: #fff;
-  padding: 10px 10px;
-  background: #888;
-}
-nav li span{
-  background: #888;
-}
-nav ul li ul {
-  visibility: hidden;
-  opacity: 0;
-  position: absolute;
-  left: 0;
-  text-align: center;
-  margin-top: 10px;
-  display: none;
-  width: 100%;
-  background: #888;
-  z-index: 100;
-}
-nav ul li:hover > ul,
-nav ul li:focus-within > ul,
-nav ul li ul:hover,
-nav ul li ul:focus {
-   visibility: visible;
-   opacity: 1;
-   display: block;
-}
-nav a {
-  color: #fff;
-  text-decoration: none;
-  transition: 0.3s;
-}
-nav a:hover {
-  background: #999;
-}
-.container {
-  margin: 0 10%;
-}
+
 .container section {
   padding: 20px;
 }

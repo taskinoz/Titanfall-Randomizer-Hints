@@ -7,6 +7,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Titanfall 2 Randomizer Hints</title>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script src="script.js" charset="utf-8"></script>
   <link rel="stylesheet" href="style.css">
   <!-- Lightbox -->
@@ -14,42 +17,71 @@
 </head>
 
 <body>
-  <h1>Randomizer Hints</h1>
-  <nav>
-    <ul>
-      <li><a class="tablinks" href="#sp_training">The Pilot's Gauntlet</a></li>
-      <li><a class="tablinks" href="#sp_crashsite">BT-7274</a></li>
-      <li><a class="tablinks" href="#sp_sewers1">Blood & Rust</a></li>
-      <li>
-        <span>Into The Abyss</span>
-        <ul class="dropdown" aria-label="submenu">
-          <li><a class="tablinks" href="#sp_boomtown_start">Chapter 1</a></li>
-          <li><a class="tablinks" href="#sp_boomtown">Chapter 2</a></li>
-          <li><a class="tablinks" href="#sp_boomtown_end">Chapter 3</a></li>
-        </ul>
-      </li>
-      <li>
-        <span>Effect and Cause</span>
-        <ul class="dropdown" aria-label="submenu">
-          <li><a class="tablinks" href="#sp_hub_timeshift">Chapter 1 & 3</a></li>
-          <li><a class="tablinks" href="#sp_timeshift_spoke02">Chapter 2</a></li>
-        </ul>
-      </li>
-      <li>
-        <span>The Beacon</span>
-        <ul class="dropdown" aria-label="submenu">
-          <li><a class="tablinks" href="#sp_beacon">Chapter 1 & 3</a></li>
-          <li><a class="tablinks" href="#sp_beacon_spoke0">Chapter 2</a></li>
-        </ul>
-      </li>
-      <li><a class="tablinks" href="#sp_tday">Trial by Fire</a></li>
-      <li><a class="tablinks" href="#sp_s2s">The Ark</a></li>
-      <li><a class="tablinks" href="#sp_skyway_v1">The Fold Weapon</a></li>
-      <li><a class="tablinks" id="showall">Show All</a></li>
-    </ul>
-  </nav>
+  <div class="">
+
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <div class="logo">
+          <a href="" alt="Home link">
+            <img class="logo-img" src="images/LegacyDice.svg" alt="Titanfall 2 Randomizer">
+          </a>
+        </div>
+      </div>
+      <div class="col-12">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <button class="navbar-toggler justify-content-end" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon justify-content-end"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto justify-content-center" style="width: 100%">
+              <li class="nav-item"><a class="nav-link" href="#sp_training">The Pilot's Gauntlet</a></li>
+              <li class="nav-item"><a class="nav-link" href="#sp_crashsite">BT-7274</a></li>
+              <li class="nav-item"><a class="nav-link" href="#sp_sewers1">Blood & Rust</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Into The Abyss
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#sp_boomtown_start">Chapter 1</a>
+                  <a class="dropdown-item" href="#sp_boomtown">Chapter 2</a>
+                  <a class="dropdown-item" href="#sp_boomtown_end">Chapter 3</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Effect and Cause
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#sp_hub_timeshift">Chapter 1 & 3</a>
+                  <a class="dropdown-item" href="#sp_timeshift_spoke02">Chapter 2</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  The Beacon
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#sp_beacon">Chapter 1 & 3</a>
+                  <a class="dropdown-item" href="#sp_beacon_spoke0">Chapter 2</a>
+                </div>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#sp_tday">Trial by Fire</a></li>
+              <li class="nav-item"><a class="nav-link" href="#sp_s2s">The Ark</a></li>
+              <li class="nav-item"><a class="nav-link" href="#sp_skyway_v1">The Fold Weapon</a></li>
+              <li class="nav-item"><a class="nav-link" id="showall">Show All</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+
   <div class="container">
     <section class="main">
+      <h1>Randomizer Hints</h1>
       <h2>About</h2>
       <p>Use the menu to open the level you're satuck on. All the levels are hidden by default to avoid spoilers,
         however you can use the <a id="showall">Show All</a> button to display all the levels at once.</p>
