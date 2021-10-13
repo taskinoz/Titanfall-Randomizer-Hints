@@ -4,6 +4,7 @@ $(document).ready(function(){
   $('nav a').on('click', function(){
     href = $(this).attr('href');
     $('section.level').hide();
+    $('section.main').hide();
     if (active != null) {$(active).hide();}
     $(href).show();
     active = href;

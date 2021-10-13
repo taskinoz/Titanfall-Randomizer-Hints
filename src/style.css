@@ -30,10 +30,8 @@ h1 {
   }
 }
 
-.container section {
-  padding: 20px;
-}
 .container section.level {
+  padding: 20px;
   display: none;
 }
 .gallery {
