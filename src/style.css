@@ -56,6 +56,9 @@ h1 {
 .frame {
   width: 100%;
 }
+.main .frame{
+  padding: 10px 0;
+}
 @media screen and (min-width: 1300px) {
   .frame {
     width: 50%;
