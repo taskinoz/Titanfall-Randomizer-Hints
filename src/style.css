@@ -32,7 +32,8 @@ h1 {
   nav.navbar {
     justify-content: flex-end;
   }
-  nav a.nav-link {
+  nav a.nav-link,
+  nav span.nav-link {
     text-align: center;
   }
 }
