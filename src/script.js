@@ -18,6 +18,7 @@ $(document).ready(function(){
   if (window.location.hash != "") {
     $('section.level').hide();
     $(window.location.hash).show();
+    $('section.main').hide();
   }
 
   function removeHash () {
