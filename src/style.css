@@ -4,8 +4,15 @@ body{
   margin: 0;
   padding: 0;
 }
+html{
+  background: #111;
+}
 body {
-  font-family: arial;
+  background: transparent;
+  color: #ddd;
+}
+h1 {
+  padding: 20px;
 }
 .logo {
   display: flex;
@@ -28,6 +35,12 @@ h1 {
   nav a.nav-link {
     text-align: center;
   }
+}
+.bg-custom {
+  background: #3b77b4;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .container section.level {
